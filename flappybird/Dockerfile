@@ -4,7 +4,7 @@ COPY . /flappybird
 
 WORKDIR /flappybird
 
-RUN pip --no-cache-dir install \
+RUN pip3 --no-cache-dir install \
         scikit-image \
         pygame
 
