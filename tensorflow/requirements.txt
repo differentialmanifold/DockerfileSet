@@ -1,2 +1,3 @@
 keras
 scipy
+Pillow
