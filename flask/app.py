@@ -10,7 +10,7 @@ def hello():
     obj = {'data': {'resp': 1}}
     return transfer_response(obj)
 
-@app.route('/hello_post', methods=['POST'])
+@app.route('/hello_post', methods=['GET', 'POST'])
 def hello_post():
     print(request.headers)
     sentences = request.json
